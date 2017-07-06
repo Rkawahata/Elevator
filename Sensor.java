@@ -1,16 +1,16 @@
 public class Sensor{
-	public int weight=0;
-	boolean quake=false;
-	boolean doorsens=false;
+	private int weight=0;
+	private boolean quake=false;
+	private boolean doorsensor=false;
 
-	Sensor(){
-		if (weight<1100) {
+	public void StartSens(){
+		if (weight>1100) {
 			System.out.println("OverWeight");
 		}
-		if (quake=true) {
+		if (quake==true) {
 			System.out.println("MotorStop");
 		}
-		if (doorsens=true) {
+		if (doorsensor==true) {
 			System.out.println("DoorOpen");
 		}
 	}
