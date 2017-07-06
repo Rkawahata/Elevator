@@ -1,5 +1,12 @@
 class motorclass{
-	public static void main(String[] args) {
-		System.out.println("回転開始");
-	}
+	String motorUp ="回転開始";
+	String motorDown ="逆回転開始";
+
+    String GetmortrUp() {
+       return  motorUp;
+   }
+
+    String GetmortrDown(){
+    	return  motorDown
+    }
 }
