@@ -2,9 +2,14 @@ public class Sensor{
 	private boolean quake=false;
 	private boolean doorsensor=false;
 
-	public void startStopSensor(){
+	public boolean doorsenseor(boolean doorsensor){
+		boolean open=true;
+		boolean close=false;
 		if (doorsensor==true) {
 			System.out.println("DoorOpen");
+			return=open;
+		}else{
+			return=close;
 		}
 	}
 	public boolean quakeSensor(boolean quake){
