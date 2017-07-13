@@ -1,6 +1,4 @@
 public class Sensor{
-	private boolean quake=false;
-	private boolean doorsensor=false;
 
 	public boolean doorsenseor(boolean doorsensor){
 		boolean open=true;
